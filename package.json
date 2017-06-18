@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint ./src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,14 @@
   "bugs": {
     "url": "https://github.com/lubomirKavetskiy/motivation/issues"
   },
-  "homepage": "https://github.com/lubomirKavetskiy/motivation#readme"
+  "homepage": "https://github.com/lubomirKavetskiy/motivation#readme",
+  "dependencies": {
+    "eslint": "^4.0.0",
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {
+    "i": "^0.3.5",
+    "jquery": "^3.2.1",
+    "webpack": "^2.6.1"
+  }
 }
